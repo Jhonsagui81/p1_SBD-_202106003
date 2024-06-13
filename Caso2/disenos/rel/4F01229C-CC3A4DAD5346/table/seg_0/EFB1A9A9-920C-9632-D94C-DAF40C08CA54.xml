@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFB1A9A9-920C-9632-D94C-DAF40C08CA54" name="Proveedores">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 21:22:16 UTC</createdTime>
+<generatorID>8DDE98A2-61FE-74B9-D1B6-4628C2A52D53</generatorID>
+<ownerDesignName>disenos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pro_id" id="504CD588-6CA4-BB5D-5B8B-C16FE1C311FA">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 21:22:16 UTC</createdTime>
+<generatorID>98D7DFA3-2D2B-68DE-E473-A1B9DCA8FCC4</generatorID>
+<ownerDesignName>disenos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_nombre" id="F760C5BE-53D4-82DE-6A7C-D08538EBDAFD">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 21:22:16 UTC</createdTime>
+<generatorID>12370F8F-A032-AFEA-F5F0-87BFE3ECAE23</generatorID>
+<ownerDesignName>disenos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_direcccion" id="6DFAB45A-53E1-EB86-CF49-0663BC04BB1F">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 21:22:16 UTC</createdTime>
+<generatorID>E2DB86F8-68B5-4301-4239-B76C864A26A0</generatorID>
+<ownerDesignName>disenos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_telefono" id="3003C7C6-F874-F59E-DE8A-BF08A31092CC">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 21:22:16 UTC</createdTime>
+<generatorID>F005CD6F-0453-C732-A5F9-D4E52C425121</generatorID>
+<ownerDesignName>disenos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_correo" id="3C349F14-B37A-917D-D9CE-653C9E8A3C26">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 21:22:16 UTC</createdTime>
+<generatorID>1DFB3787-176E-AB6A-CB09-B1E58F74396F</generatorID>
+<ownerDesignName>disenos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_nombre_empresa" id="36328DB6-17DB-4360-7785-B6A54001D235">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 21:22:16 UTC</createdTime>
+<generatorID>ADB6FB87-D2AD-A04E-FF36-EE18BC8B9CC2</generatorID>
+<ownerDesignName>disenos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4E5FEBB-8CF6-3063-4C16-C290E3AB07CF" name="Proveedores_PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 21:22:16 UTC</createdTime>
+<generatorID>EAFE23FD-105A-C6EF-8215-FBF2C6B889FD</generatorID>
+<ownerDesignName>disenos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="504CD588-6CA4-BB5D-5B8B-C16FE1C311FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1C025FFC-1517-EBB6-148D-6B96AC50E6E6" name="Tarjetas_Credito">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 18:45:19 UTC</createdTime>
+<ownerDesignName>disenos</ownerDesignName>
+<engineerTo>
+<item key="4F01229C-03AA-8C02-1A3A-CC3A4DAD5346" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tar_id" id="826AE0F7-7D80-1703-30D6-F899F846177B">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 18:45:34 UTC</createdTime>
+<ownerDesignName>disenos</ownerDesignName>
+<engineerTo>
+<item key="4F01229C-03AA-8C02-1A3A-CC3A4DAD5346" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tar_no_tarjetas" id="2BB756BF-8A12-01D5-B6F5-6E89F2E22465">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 18:45:57 UTC</createdTime>
+<ownerDesignName>disenos</ownerDesignName>
+<engineerTo>
+<item key="4F01229C-03AA-8C02-1A3A-CC3A4DAD5346" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tar_banco" id="163DC327-00E4-8F7F-A7ED-BA1B19FAAAD3">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 18:46:15 UTC</createdTime>
+<ownerDesignName>disenos</ownerDesignName>
+<engineerTo>
+<item key="4F01229C-03AA-8C02-1A3A-CC3A4DAD5346" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tar_fecha_vencimiento" id="8E028205-48B9-4A9A-A9C9-AB10AEDC2F17">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 18:47:21 UTC</createdTime>
+<ownerDesignName>disenos</ownerDesignName>
+<engineerTo>
+<item key="4F01229C-03AA-8C02-1A3A-CC3A4DAD5346" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_id" id="93412067-0148-E4BD-8929-2EB06DB785BA">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 21:01:38 UTC</createdTime>
+<generatorID>7CEE63B6-BBA9-5080-A608-8F84C2DF215D</generatorID>
+<ownerDesignName>disenos</ownerDesignName>
+<engineerTo>
+<item key="4F01229C-03AA-8C02-1A3A-CC3A4DAD5346" value="true"/>
+</engineerTo>
+<referedAttribute>0F7516FF-844E-7F26-12A4-42BD39A74891</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BEBEA0B7-59A3-2FAE-1556-06FA84316E8B" name="Tarjetas_Credito PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-12 18:45:55 UTC</createdTime>
+<ownerDesignName>disenos</ownerDesignName>
+<engineerTo>
+<item key="4F01229C-03AA-8C02-1A3A-CC3A4DAD5346" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>826AE0F7-7D80-1703-30D6-F899F846177B,7CEE63B6-BBA9-5080-A608-8F84C2DF215D</newElementsIDs>
+<usedAttributes>
+<attributeRef>826AE0F7-7D80-1703-30D6-F899F846177B</attributeRef>
+<attributeRef>93412067-0148-E4BD-8929-2EB06DB785BA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
