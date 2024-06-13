@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="711D6C33-F36C-0136-D3E6-ECCAA552F1A9" name="Bodega">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>490666BC-C2C0-A82C-443A-B9596B5A18F7</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bod_id" id="AFE78B22-D7CD-6B4A-F333-A8E2CEBCAC54">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>1FA47A4C-6C31-7B33-B2AE-0EF810787D1B</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bod_encargado" id="E261D42B-9394-2BB3-5381-00AE60BBA42F">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>841C1E43-CF2E-5549-BC5A-AC101208E109</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bod_direccion" id="65B66673-8223-C8C7-D92D-64CCA9799903">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>D7C9D551-2BB4-57F7-211B-B52185FCE6A9</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bod_tipo_bodega" id="5839916D-76E6-83D8-D154-BAE1C1876FDE">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>8C99A82B-3331-5100-76D4-5DC65F537E62</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bod_inventario_actual" id="8E51643E-4CD3-03B2-2D15-B034C5A4A63A">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>A1F6A46F-43A7-171C-0A66-431302CEE19E</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D072DC0D-8409-C6EA-3B6D-FC71A70A969E" name="Bodega_PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>9E41CA16-5A95-FB19-1D28-75019905EC46</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AFE78B22-D7CD-6B4A-F333-A8E2CEBCAC54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

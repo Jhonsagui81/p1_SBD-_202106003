@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="856313C7-57B6-1B7C-A63A-5AFF6616421F" name="Parte_factura">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:43:55 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pf_id" id="79CE1EEF-7616-7809-8952-6B903AA3BFF0">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:44:10 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pf_cantidad" id="517EC731-A1F7-141C-C3ED-1DB9B2F463EB">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:44:24 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pf_precio_unitario" id="55B70B9C-6B16-3404-A8B3-916399A93760">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:44:55 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="par_id" id="16509F0A-EF7D-5411-2EED-E6D0DC7A12C7">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:32:44 UTC</createdTime>
+<generatorID>F546DDC5-EFDF-C260-66F7-0E87EA772DAE</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>A01CBF8B-8357-3119-8250-408FD19147EF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bod_id" id="1A410522-3A8C-CD34-CA5D-B8995985F3F9">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:32:44 UTC</createdTime>
+<generatorID>F546DDC5-EFDF-C260-66F7-0E87EA772DAE</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>EA883CC1-F364-FEEC-B27D-F5A4B6BA8764</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_id" id="CC008B91-D6C4-8D75-57BF-44CD19FCB7B4">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:32:44 UTC</createdTime>
+<generatorID>F546DDC5-EFDF-C260-66F7-0E87EA772DAE</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>D71716C9-E545-A305-4B20-02C2562E2CFA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fac_id" id="B93B5C82-D20E-2D76-DD9D-F5464F5EFCF0">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:33:10 UTC</createdTime>
+<generatorID>057CBB08-6DF9-4FA2-E249-0C4E40B88BEF</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>77E8A459-7335-43AA-54CC-542CEAD072D0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_id1" id="0DD2BA49-356D-500C-62CA-6291241E9DB1">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:33:10 UTC</createdTime>
+<generatorID>057CBB08-6DF9-4FA2-E249-0C4E40B88BEF</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>BE0ADECC-7AE0-A2F6-6572-7EAA9D5D60CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EEA6206B-CF06-DD24-FD5E-8111AA836B27" name="Parte_factura PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:44:23 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>79CE1EEF-7616-7809-8952-6B903AA3BFF0</attributeRef>
+<attributeRef>16509F0A-EF7D-5411-2EED-E6D0DC7A12C7</attributeRef>
+<attributeRef>1A410522-3A8C-CD34-CA5D-B8995985F3F9</attributeRef>
+<attributeRef>CC008B91-D6C4-8D75-57BF-44CD19FCB7B4</attributeRef>
+<attributeRef>B93B5C82-D20E-2D76-DD9D-F5464F5EFCF0</attributeRef>
+<attributeRef>0DD2BA49-356D-500C-62CA-6291241E9DB1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

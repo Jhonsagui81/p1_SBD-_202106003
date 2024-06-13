@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2875D271-DCA2-5727-E634-842FAAF64F21" name="Pedido">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>0B052917-134B-4D42-73C7-FF963C104EF3</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ped_id" id="B7952D61-1A32-FB0B-59AB-C897643F6259">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>B28C3CB8-705A-331D-EFBD-177A8C7C872F</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ped_fecha" id="9CB6E56F-019E-1DAB-5A54-1BB8B7ADA470">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>B15587F1-C562-96F4-F82B-3A98ADDEFE59</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ped_fecha_entrega" id="B87B72A3-380A-6D3C-D94C-2845166676E0">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>C0AC1810-D26D-860E-A89A-FB98BEC59F47</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ped_pago_adelantado" id="9CC5862D-9E0E-0B7B-623C-56604B045116">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>8F273F2F-C5F1-84A3-BF17-937B5A4135F6</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ped_estado" id="CDFFF517-52B1-1BFD-4579-70AA6E484C5B">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>5E565670-9632-42F3-4C11-755207E804A0</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_cli_id" id="1180B1BA-3ACA-D555-10A0-4882F9751161">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>1CF71833-32BD-31D6-755F-167A0E92BAFD</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="68A6A326-B14F-F3D3-0054-2CF3F10CD90E" referredColumn="CA3065F9-945A-38F3-1D24-2774D740F934"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EBC716B1-AA7D-D7F1-CF1A-D905931CB288" name="Pedido_PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>8591F09C-FF05-C8F0-B5D9-90E1AB83DEFE</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B7952D61-1A32-FB0B-59AB-C897643F6259"/>
+<colUsage columnID="1180B1BA-3ACA-D555-10A0-4882F9751161"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="37EF669E-052F-2D02-5676-3B421A8C8649" name="Pedido_Cliente_FK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>A635D2F6-29C5-BD4C-A391-A0629DF9FB29</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1180B1BA-3ACA-D555-10A0-4882F9751161"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

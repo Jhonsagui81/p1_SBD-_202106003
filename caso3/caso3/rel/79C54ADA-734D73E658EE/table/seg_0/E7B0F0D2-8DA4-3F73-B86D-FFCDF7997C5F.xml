@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7B0F0D2-8DA4-3F73-B86D-FFCDF7997C5F" name="Linea_ensamblaje">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>2F7B4012-3642-FECE-F2FF-F01E780B3D1B</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="lin_id" id="98BE359E-F2E8-7849-5938-72B7F2842160">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>876BCDDF-4891-6685-DC92-EF0F937AC059</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lin_tipo" id="EC39C98D-651D-D894-16FA-E0D64771A408">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>F80D5877-3130-771B-ADA7-2F2649EE2735</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_pro_id" id="A5265E8D-48C5-562C-9A0C-678303051AB5">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>2D375032-0A6C-D734-388B-9CF1C5343C46</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0301C48-696A-01CE-26C9-0AD4AF591832" referredColumn="A670201D-B612-5D03-1B83-DC5DE0BD6EEC"/>
+</associations>
+</Column>
+<Column name="Producto_Bodega_bod_id" id="F73E074E-EEED-265C-EB63-B8DD9AD677D2">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>5326768E-58C1-E541-ED97-892518A1DC53</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D0301C48-696A-01CE-26C9-0AD4AF591832" referredColumn="803A614C-6782-0533-1BE5-F64C2B48644D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2037857B-5F4D-968F-B8AB-27887BC9314E" name="Linea_ensamblaje_PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>8DDA0E5B-783C-C2B9-DD87-4A63BFFAD8D8</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98BE359E-F2E8-7849-5938-72B7F2842160"/>
+<colUsage columnID="A5265E8D-48C5-562C-9A0C-678303051AB5"/>
+<colUsage columnID="F73E074E-EEED-265C-EB63-B8DD9AD677D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3073167A-1DB9-C573-D225-C9AAA10061B7" name="Linea_ensamblaje_Producto_FK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>2A22BEF9-2DBB-F0A3-12FF-02B4C60EBA04</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A5265E8D-48C5-562C-9A0C-678303051AB5"/>
+<colUsage columnID="F73E074E-EEED-265C-EB63-B8DD9AD677D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

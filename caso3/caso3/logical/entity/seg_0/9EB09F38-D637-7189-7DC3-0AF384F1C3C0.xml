@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9EB09F38-D637-7189-7DC3-0AF384F1C3C0" name="Parte">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:05:36 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="par_id" id="A01CBF8B-8357-3119-8250-408FD19147EF">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:05:53 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="par_codigo" id="A105148D-0331-D6FE-8C46-4113098984AC">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:06:04 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="par_nombre" id="8657B15B-FC23-56FC-80D6-481E8A469EEE">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:06:24 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="par_color" id="6180A6A1-636A-3618-DE64-A4285B971E1B">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:06:39 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="par_tipo" id="485D35C8-BE7D-E9CB-30F7-7A3A4E356B0C">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:07:18 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="par_garantia" id="85278B07-7682-DA00-EDCC-997A59B70A1A">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:07:30 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="par_costo" id="B015272C-5908-4678-680F-B97C483E693A">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:08:00 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bod_id" id="EA883CC1-F364-FEEC-B27D-F5A4B6BA8764">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:49:35 UTC</createdTime>
+<generatorID>FA75E1AF-3F07-20CE-6E78-2666ABA78091</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>1FA47A4C-6C31-7B33-B2AE-0EF810787D1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_id" id="D71716C9-E545-A305-4B20-02C2562E2CFA">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:57:52 UTC</createdTime>
+<generatorID>D8D4714A-057A-29AE-F8E8-153891A32503</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>EBEE11F3-6AC3-30BE-3634-D0177BB9424E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="420A7407-74CA-5BD8-9B4A-2E5085DC025E" name="Parte PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:06:02 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A01CBF8B-8357-3119-8250-408FD19147EF</attributeRef>
+<attributeRef>EA883CC1-F364-FEEC-B27D-F5A4B6BA8764</attributeRef>
+<attributeRef>D71716C9-E545-A305-4B20-02C2562E2CFA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

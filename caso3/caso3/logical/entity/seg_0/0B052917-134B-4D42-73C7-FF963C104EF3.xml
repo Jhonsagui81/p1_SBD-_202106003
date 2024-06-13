@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0B052917-134B-4D42-73C7-FF963C104EF3" name="Pedido">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:36:06 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ped_id" id="B28C3CB8-705A-331D-EFBD-177A8C7C872F">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:36:14 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ped_fecha" id="B15587F1-C562-96F4-F82B-3A98ADDEFE59">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:36:27 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ped_fecha_entrega" id="C0AC1810-D26D-860E-A89A-FB98BEC59F47">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:36:44 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ped_pago_adelantado" id="8F273F2F-C5F1-84A3-BF17-937B5A4135F6">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:37:00 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ped_estado" id="5E565670-9632-42F3-4C11-755207E804A0">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:37:20 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_id" id="1CF71833-32BD-31D6-755F-167A0E92BAFD">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:38:29 UTC</createdTime>
+<generatorID>A635D2F6-29C5-BD4C-A391-A0629DF9FB29</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>F33E7720-1D75-B9E6-8D5B-4687F765FD04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8591F09C-FF05-C8F0-B5D9-90E1AB83DEFE" name="Pedido PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:36:26 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B28C3CB8-705A-331D-EFBD-177A8C7C872F</attributeRef>
+<attributeRef>1CF71833-32BD-31D6-755F-167A0E92BAFD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

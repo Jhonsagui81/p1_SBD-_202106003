@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E80C0A67-960E-2DC6-6F33-4002EAAE9543" name="Factura">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>F6B3170A-113E-B849-1DB9-79DAE3DB533A</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="fac_id" id="B2473DE6-0BC3-B9CA-B4C6-E5C36ABE415D">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>77E8A459-7335-43AA-54CC-542CEAD072D0</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fac_fecha" id="6900E1C6-F7A8-ABDB-6C3C-361D6EC0596E">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>B2CA7A9E-61E1-10F8-3F4B-AE79CB498433</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fac_monto_total" id="5FC1298A-2C6E-BF4A-8673-5AED9DA524D6">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>A1C6E881-EB17-7A8A-3600-CD94D722B30F</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fac_estado_pago" id="C0B07C3A-E901-C081-1360-C2626A034A24">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>AF86A67C-29D3-4AD2-747E-C2CE0F90AB4E</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proveedor_pro_id" id="F14543B2-48D8-95F8-3929-41D3EC70B973">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>BE0ADECC-7AE0-A2F6-6572-7EAA9D5D60CE</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CED80093-ED2F-8933-CEEA-9883DDF89E35" referredColumn="F8AB36AF-4B03-1546-55A0-E7B4584A80FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="144C3AFA-97F9-9AD4-6CDA-86C62E8D7E72" name="Factura_PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>1C082CAA-8B36-C12F-1224-0C190875C301</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2473DE6-0BC3-B9CA-B4C6-E5C36ABE415D"/>
+<colUsage columnID="F14543B2-48D8-95F8-3929-41D3EC70B973"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F11385D1-0317-F6BB-C5F7-646E73976219" name="Factura_Proveedor_FK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>1DC1938F-89D6-75E2-D5A7-3A3A202EB504</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F14543B2-48D8-95F8-3929-41D3EC70B973"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

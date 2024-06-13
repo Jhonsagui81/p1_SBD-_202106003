@@ -95,4 +95,10 @@
 -- puesto_id (foranea)
 
 
+## Modelo Logico
 
+![modelo logico](image.png)
+
+## Modelo Relacional 
+
+![modelo relacional](Relational_1.png)

@@ -1,0 +1,177 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="135FE757-2690-274F-83F5-5B4DCED39603" name="Etapa">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>AC18D9E6-B389-463B-B3D4-09699953E09C</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="eta_id" id="377AED89-67C7-E667-A280-3798667856E5">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>B2896419-4CB3-7E97-AF68-2FC671F837F8</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eta_nombre" id="31699BB1-4A5A-2499-85DF-89DA84E19DDC">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>2B31B630-9CC7-4724-07F9-ECDE768EF22A</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eta_estado" id="07B20532-0BC6-6E56-30AD-9BB635412622">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>F3988D91-EA0A-1995-2EC5-FBA914827BE3</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="eta_costo_funciona" id="574E5650-8801-C82B-9692-D1CFF1A21B69">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>887B46A7-2FF4-2554-A953-733A4D19C6A8</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_pro_id" id="4FAD67D6-246F-B27E-2055-E54A398E71F2">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>9FB36348-5FE0-4B95-313E-2A487BBDA7AF</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE7A2593-9C76-2DE2-0782-2C8E31FF7F5C" referredColumn="A670201D-B612-5D03-1B83-DC5DE0BD6EEC"/>
+</associations>
+</Column>
+<Column name="Producto_Bodega_bod_id" id="A5FC3626-DDF9-9CB7-3768-FE9310A49EBD">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>103F2CA4-710A-B607-740A-317D9213D62C</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DE7A2593-9C76-2DE2-0782-2C8E31FF7F5C" referredColumn="803A614C-6782-0533-1BE5-F64C2B48644D"/>
+</associations>
+</Column>
+<Column name="Parte_par_id" id="7571F197-3E25-B05A-02E6-5B00E0DFA4F8">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>3271CDD7-CC7D-1381-827C-FFEC9729E4D8</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9AF9EFC-1E54-74E7-9531-B6FB3AB12A6D" referredColumn="90141B13-5CE4-44E1-C9F8-53180F83F20F"/>
+</associations>
+</Column>
+<Column name="Parte_Bodega_bod_id" id="28322A9D-2588-DF30-592E-91F0F60AE705">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>3B33C436-874D-FF04-BC1E-0B222BF4B00C</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9AF9EFC-1E54-74E7-9531-B6FB3AB12A6D" referredColumn="1BA162B1-3ACF-4B0B-236F-9A2648785203"/>
+</associations>
+</Column>
+<Column name="Parte_pro_id" id="EAB12D54-C874-8080-DDFE-407979D68CB7">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>20B9A356-A1F0-788E-147B-03D7061997C8</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9AF9EFC-1E54-74E7-9531-B6FB3AB12A6D" referredColumn="160EBF76-DF35-640C-9BC8-A832E4F0C326"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7B3C6A16-3F7E-C22A-4B5F-EF3EA5A096B1" name="Etapa_PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>5797227A-2A53-382C-16E0-E0A06548E1B7</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="377AED89-67C7-E667-A280-3798667856E5"/>
+<colUsage columnID="4FAD67D6-246F-B27E-2055-E54A398E71F2"/>
+<colUsage columnID="A5FC3626-DDF9-9CB7-3768-FE9310A49EBD"/>
+<colUsage columnID="7571F197-3E25-B05A-02E6-5B00E0DFA4F8"/>
+<colUsage columnID="28322A9D-2588-DF30-592E-91F0F60AE705"/>
+<colUsage columnID="EAB12D54-C874-8080-DDFE-407979D68CB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E76DB7C7-2571-0642-AADE-50C8917BFF1C" name="Etapa_Parte_FK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>98D20A28-D89A-B0BC-CF43-FD185CCFBEF2</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7571F197-3E25-B05A-02E6-5B00E0DFA4F8"/>
+<colUsage columnID="28322A9D-2588-DF30-592E-91F0F60AE705"/>
+<colUsage columnID="EAB12D54-C874-8080-DDFE-407979D68CB7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D099A96C-3268-CB10-8227-84ECFEE581AA" name="Etapa_Producto_FK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>0C86CF24-5135-F28A-00CC-0B7E47A612F2</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FAD67D6-246F-B27E-2055-E54A398E71F2"/>
+<colUsage columnID="A5FC3626-DDF9-9CB7-3768-FE9310A49EBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

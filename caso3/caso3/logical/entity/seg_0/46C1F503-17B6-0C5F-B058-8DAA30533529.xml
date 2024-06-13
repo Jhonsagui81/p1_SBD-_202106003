@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="46C1F503-17B6-0C5F-B058-8DAA30533529" name="Producto">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:09:54 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pro_id" id="65949869-15B2-A881-1DD6-CD4CBBD80DA7">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:10:35 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_nombre" id="D10ADFE0-AA67-8084-0456-269AD9B17FC9">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:10:48 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_marca" id="C4711575-83B7-AB7B-853E-4383FB8A6B86">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:11:15 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_fecha_finaliza" id="759C0C3E-CD14-7C6A-8D1F-16E92B370DB8">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:11:27 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_costo_fabricacion" id="B79E899C-4BD3-D47C-65FC-16D5DCF4BB8E">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:11:41 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_costo_verificacion" id="3F418362-21B3-758B-9EE8-37D47C1BEB44">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:12:01 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_costo_total" id="FF030D84-66C8-4818-B009-9A808F488D1A">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:12:19 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bod_id" id="BBBBA8CE-EA38-F619-2C56-DA7D06BEBC3E">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:55:15 UTC</createdTime>
+<generatorID>67156FAB-ADCE-A98A-5C91-6D22E72E5BFD</generatorID>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>1FA47A4C-6C31-7B33-B2AE-0EF810787D1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="904CCD3E-B933-7A02-5CA2-068631428DF6" name="Producto PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:10:46 UTC</createdTime>
+<ownerDesignName>caso3</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>65949869-15B2-A881-1DD6-CD4CBBD80DA7</attributeRef>
+<attributeRef>BBBBA8CE-EA38-F619-2C56-DA7D06BEBC3E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
