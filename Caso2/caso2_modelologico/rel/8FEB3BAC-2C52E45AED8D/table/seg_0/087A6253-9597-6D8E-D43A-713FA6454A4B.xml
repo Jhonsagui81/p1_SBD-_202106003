@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="087A6253-9597-6D8E-D43A-713FA6454A4B" name="Inventario">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>40F410E9-6816-84DE-8B24-A29854805A93</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="inv_id" id="2DC0AA07-D2A7-98AA-F690-8C7C4EC39183">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>D825F8C3-F3C1-2CB9-C389-9FFD93087FAE</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inv_vehiculos_venta" id="774DAD2F-561D-F246-F133-7D07D56142F9">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>8D52D6B6-9F19-F6F2-2B6D-C60B900B7447</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inv_vehiculos_vendidos" id="D162E781-17E3-2ED2-6261-0F1B87114F24">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>99746370-D380-48C2-5136-6C91CA6B3C3C</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sucursal_suc_id" id="AB9C6DA5-0CAF-1BF1-1FF7-710519D872A5">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>3D2954B7-034A-983F-E8CC-E0F9F633BF96</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3876C0D-9D0B-CFA4-25D0-FB37E81B39DE" referredColumn="2C9F5202-BBCF-34DF-4944-BCF11CD6581B"/>
+</associations>
+</Column>
+<Column name="Sucursal_Municipios_mun_id" id="C6254E91-5D21-C27F-9F56-5DBFC940BBCA">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>F36BCC6A-627C-B768-1603-1454230034D5</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3876C0D-9D0B-CFA4-25D0-FB37E81B39DE" referredColumn="D215F377-83E6-DEC5-916A-B36A1DFA2279"/>
+</associations>
+</Column>
+<Column name="Sucursal_Municipios_dep_id" id="7BD88306-7258-D5B9-29E4-77B5632DB93A">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>9D891658-7BE9-1174-DD42-5036721FA034</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3876C0D-9D0B-CFA4-25D0-FB37E81B39DE" referredColumn="B21719E1-04ED-B8C1-DA9C-CA2FB000B523"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="35B9A52B-7CE4-BEE1-510F-0373E793DEF9" name="Inventario_PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>6E8391C1-13CC-6369-61CC-B0FE30616714</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DC0AA07-D2A7-98AA-F690-8C7C4EC39183"/>
+<colUsage columnID="AB9C6DA5-0CAF-1BF1-1FF7-710519D872A5"/>
+<colUsage columnID="C6254E91-5D21-C27F-9F56-5DBFC940BBCA"/>
+<colUsage columnID="7BD88306-7258-D5B9-29E4-77B5632DB93A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F60D7A7E-C8E8-466C-3524-CE5FDF10BCDA" name="Inventario__IDX">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>25048CDF-BB4C-307F-B919-A614CB13B8FC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AB9C6DA5-0CAF-1BF1-1FF7-710519D872A5"/>
+<colUsage columnID="C6254E91-5D21-C27F-9F56-5DBFC940BBCA"/>
+<colUsage columnID="7BD88306-7258-D5B9-29E4-77B5632DB93A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6C5CF3F-DED6-E17E-F9A1-D3373F4F5E3D" name="Inventario_Sucursal_FK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>25048CDF-BB4C-307F-B919-A614CB13B8FC</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB9C6DA5-0CAF-1BF1-1FF7-710519D872A5"/>
+<colUsage columnID="C6254E91-5D21-C27F-9F56-5DBFC940BBCA"/>
+<colUsage columnID="7BD88306-7258-D5B9-29E4-77B5632DB93A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

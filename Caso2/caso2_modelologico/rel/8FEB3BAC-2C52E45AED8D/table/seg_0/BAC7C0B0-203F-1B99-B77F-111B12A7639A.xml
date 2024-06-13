@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BAC7C0B0-203F-1B99-B77F-111B12A7639A" name="Sucursal">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>C765586F-65D4-A278-A48F-27E16C8EAF95</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="suc_id" id="2C9F5202-BBCF-34DF-4944-BCF11CD6581B">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>54B38400-CCD8-5955-C46A-2C2157205F24</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="suc_nombre" id="D2050816-1495-1C15-3889-E3589B83322B">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>F80DC310-48E6-6D5B-3CA7-3619211B58D4</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="suc_direccion" id="7F83044E-2D7D-1B4D-A25B-832E5FC62072">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>49FEE086-01E5-A3DA-FD2A-B452C5BF9B93</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="suc_telefono" id="30F7272C-F99C-546A-3029-1400B2B56030">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>91C0E9E4-8033-B99C-D20F-B3B8C155D7FF</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="suc_sitio_web" id="45D79BC5-03C2-E5D4-BF25-F349F274F398">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>A454B60A-FD67-E5B5-2D5A-9BECE3CE27EE</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Municipios_mun_id" id="D215F377-83E6-DEC5-916A-B36A1DFA2279">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>7A9368B9-3C65-2207-5BD5-7A27B259CAB0</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92681F23-2AFD-BB60-5AA5-3E8905AA57A0" referredColumn="FB6191E3-2427-51F6-368E-2A726A606A0C"/>
+</associations>
+</Column>
+<Column name="Municipios_dep_id" id="B21719E1-04ED-B8C1-DA9C-CA2FB000B523">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>89E62ABF-791A-5923-758B-C061D92D611C</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="92681F23-2AFD-BB60-5AA5-3E8905AA57A0" referredColumn="6DD25BB9-4213-0336-F65F-C792BFA0A7A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5A8DB1F2-1ABC-E5C5-FE4B-F94E3323F7D0" name="Sucursal_PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>39207E28-2D90-422E-7490-0676C1D69F12</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C9F5202-BBCF-34DF-4944-BCF11CD6581B"/>
+<colUsage columnID="D215F377-83E6-DEC5-916A-B36A1DFA2279"/>
+<colUsage columnID="B21719E1-04ED-B8C1-DA9C-CA2FB000B523"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD10A9E2-A649-4BA7-E093-CFED6B532215" name="Sucursal_Municipios_FK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>B825BF3E-BAE1-E114-E755-E24A2F509598</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D215F377-83E6-DEC5-916A-B36A1DFA2279"/>
+<colUsage columnID="B21719E1-04ED-B8C1-DA9C-CA2FB000B523"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

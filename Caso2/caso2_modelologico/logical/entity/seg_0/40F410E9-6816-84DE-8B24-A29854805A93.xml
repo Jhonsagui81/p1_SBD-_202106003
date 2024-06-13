@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40F410E9-6816-84DE-8B24-A29854805A93" name="Inventario">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 03:41:14 UTC</createdTime>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="inv_id" id="D825F8C3-F3C1-2CB9-C389-9FFD93087FAE">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 03:41:20 UTC</createdTime>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inv_vehiculos_venta" id="8D52D6B6-9F19-F6F2-2B6D-C60B900B7447">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 03:41:33 UTC</createdTime>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inv_vehiculos_vendidos" id="99746370-D380-48C2-5136-6C91CA6B3C3C">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 03:41:50 UTC</createdTime>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="suc_id" id="3D2954B7-034A-983F-E8CC-E0F9F633BF96">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 04:47:22 UTC</createdTime>
+<generatorID>25048CDF-BB4C-307F-B919-A614CB13B8FC</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<referedAttribute>54B38400-CCD8-5955-C46A-2C2157205F24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="mun_id" id="F36BCC6A-627C-B768-1603-1454230034D5">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:15:20 UTC</createdTime>
+<generatorID>25048CDF-BB4C-307F-B919-A614CB13B8FC</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<referedAttribute>7A9368B9-3C65-2207-5BD5-7A27B259CAB0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dep_id" id="9D891658-7BE9-1174-DD42-5036721FA034">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:15:49 UTC</createdTime>
+<generatorID>25048CDF-BB4C-307F-B919-A614CB13B8FC</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<referedAttribute>89E62ABF-791A-5923-758B-C061D92D611C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6E8391C1-13CC-6369-61CC-B0FE30616714" name="Inventario PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 03:41:31 UTC</createdTime>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D825F8C3-F3C1-2CB9-C389-9FFD93087FAE</attributeRef>
+<attributeRef>3D2954B7-034A-983F-E8CC-E0F9F633BF96</attributeRef>
+<attributeRef>F36BCC6A-627C-B768-1603-1454230034D5</attributeRef>
+<attributeRef>9D891658-7BE9-1174-DD42-5036721FA034</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

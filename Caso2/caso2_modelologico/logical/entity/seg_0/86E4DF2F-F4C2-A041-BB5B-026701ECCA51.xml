@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86E4DF2F-F4C2-A041-BB5B-026701ECCA51" name="Tarjetas_credito">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 04:08:27 UTC</createdTime>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tar_id" id="AEE66323-0540-1E91-FDD2-703BAFEEEF69">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 04:08:35 UTC</createdTime>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tar_no_tarjeta" id="F144E41F-A2B9-0AE7-7AEB-D7489DBA3E1D">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 04:08:55 UTC</createdTime>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tar_banco" id="243DC086-B1EF-3CE2-BC91-FF4C7D68810A">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 04:09:12 UTC</createdTime>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tar_fecha_vencimiento" id="D79AFFC0-AA8E-10A6-DF68-7E858396F765">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 04:09:27 UTC</createdTime>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_id" id="2BAB27BF-1CC0-2F1F-2403-E398894B04CE">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 04:52:51 UTC</createdTime>
+<generatorID>270E9CDA-2E7C-A413-5B57-2718E6B95AF1</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<referedAttribute>CD45A1E7-5B0B-653E-692C-DDAEE206390A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4DACD9F0-42F3-A231-8AC6-AA44244C56A2" name="Tarjetas_credito PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 04:08:54 UTC</createdTime>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<engineerTo>
+<item key="8FEB3BAC-E8DA-2434-F34A-2C52E45AED8D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AEE66323-0540-1E91-FDD2-703BAFEEEF69</attributeRef>
+<attributeRef>2BAB27BF-1CC0-2F1F-2403-E398894B04CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

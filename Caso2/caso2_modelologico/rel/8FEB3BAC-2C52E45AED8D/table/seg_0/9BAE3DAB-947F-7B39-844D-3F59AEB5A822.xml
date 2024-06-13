@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9BAE3DAB-947F-7B39-844D-3F59AEB5A822" name="Municipios">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>0094A7A9-E4F8-4A72-3B68-ECB65C1E289A</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="mun_id" id="FB6191E3-2427-51F6-368E-2A726A606A0C">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>40EC6D05-0C35-C8C7-E288-C18006F537E7</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mun_nombre" id="13DF87B0-FEB6-1A08-B67E-55D904D29CBA">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>3D950A04-FCD4-0888-95B4-B3E1F234CCCC</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Departamento_dep_id" id="6DD25BB9-4213-0336-F65F-C792BFA0A7A6">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>59E65E83-D2EA-D34F-ECCF-D577A69C26C5</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FFAC085-B145-4F39-7750-B9B2A467E67B" referredColumn="A92E5959-24DB-F845-A12A-327C9BDE328C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0DA39413-B12B-62BD-61F0-C234C19CCCFE" name="Municipios_PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>E745F8BC-EAE5-4E8D-2048-39FFFEE58B17</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB6191E3-2427-51F6-368E-2A726A606A0C"/>
+<colUsage columnID="6DD25BB9-4213-0336-F65F-C792BFA0A7A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F69C89B-FE62-C916-EC45-C487F5E92EAE" name="Municipios_Departamento_FK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>7CC46659-E7CF-E72D-7F1F-0334E63406B9</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DD25BB9-4213-0336-F65F-C792BFA0A7A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

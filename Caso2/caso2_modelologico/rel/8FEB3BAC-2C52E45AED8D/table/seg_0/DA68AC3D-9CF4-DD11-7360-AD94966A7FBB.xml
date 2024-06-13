@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DA68AC3D-9CF4-DD11-7360-AD94966A7FBB" name="Empleado_suc">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>03BE1504-3AD1-DFCF-B0ED-C03831052F32</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="es_id" id="4C429970-D0C5-F464-B8A3-2A1D2E845A7C">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>504F778B-789A-7FC7-4290-11E7C9FFC764</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="es_fecha_inicio" id="02D0A8B5-BFED-A97F-DE1D-7CF5F17E9CBA">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>DB405E43-2108-4A85-BC3D-905953FB3528</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="es_fecha_fin" id="6442F2E6-D82B-7429-B6AB-C8014AD893AE">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>76FA45BD-3BB6-9FED-3C7D-C07C0253C0B6</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Empleado_emp_id" id="57174610-AF67-0637-5A4F-86F7D224F0D0">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>0D7D9E24-73A7-2CCE-E7ED-D725AC90C12D</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6279352B-9BE5-0C10-85A4-840E84AB175A" referredColumn="6033D339-3CE7-6430-1D39-9FF1ED5D661C"/>
+</associations>
+</Column>
+<Column name="Sucursal_suc_id" id="670A9665-BBF3-2195-96BA-CEC5E937E853">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>4C4CA0E9-B451-AB81-DDEA-4DE7599EBC57</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="991D20B0-69EF-162F-D7CF-DBF6A12F1460" referredColumn="2C9F5202-BBCF-34DF-4944-BCF11CD6581B"/>
+</associations>
+</Column>
+<Column name="Sucursal_Municipios_mun_id" id="2712EF11-4278-474F-5BA1-58DDF311D9B9">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>D9BA859C-C80F-230D-6A39-A181C9605178</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="991D20B0-69EF-162F-D7CF-DBF6A12F1460" referredColumn="D215F377-83E6-DEC5-916A-B36A1DFA2279"/>
+</associations>
+</Column>
+<Column name="Sucursal_Municipios_dep_id" id="2590ABDB-72A0-D15A-528E-C3E49F4721AE">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>76C81B91-162D-EDE7-006C-E4D03053306B</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="991D20B0-69EF-162F-D7CF-DBF6A12F1460" referredColumn="B21719E1-04ED-B8C1-DA9C-CA2FB000B523"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="521E8E2C-F401-191D-17ED-00F2B413F9B2" name="Empleado_suc_PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>E504E2B1-FDBF-D2A3-58E4-B835757B60FA</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C429970-D0C5-F464-B8A3-2A1D2E845A7C"/>
+<colUsage columnID="57174610-AF67-0637-5A4F-86F7D224F0D0"/>
+<colUsage columnID="670A9665-BBF3-2195-96BA-CEC5E937E853"/>
+<colUsage columnID="2712EF11-4278-474F-5BA1-58DDF311D9B9"/>
+<colUsage columnID="2590ABDB-72A0-D15A-528E-C3E49F4721AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65D6E976-C2EA-10CA-CF30-5B29783D1279" name="Empleado_suc_Empleado_FK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>DECAB350-3E2D-90DD-0373-4A69543362E7</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57174610-AF67-0637-5A4F-86F7D224F0D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4ABC9E5-6D31-C3B7-2FA2-62B73967272E" name="Empleado_suc_Sucursal_FK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 05:16:34 UTC</createdTime>
+<generatorID>3AFC96EC-5293-5000-0DD7-4232A184585F</generatorID>
+<ownerDesignName>caso2_modelologico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="670A9665-BBF3-2195-96BA-CEC5E937E853"/>
+<colUsage columnID="2712EF11-4278-474F-5BA1-58DDF311D9B9"/>
+<colUsage columnID="2590ABDB-72A0-D15A-528E-C3E49F4721AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
