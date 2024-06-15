@@ -107,3 +107,32 @@
 - pais_aterrizaje
 - fecha_aterrizaje
 
+## MODELO LOGICO 
+![MODELOLOGICO](Logical.png)
+
+## MODELO RELACIONAL
+![MODELORELACIONAL](Relational_1.png)
+
+## RELACIONES
+
+### AVION
+* Se establecio una relacion de uno a muchos con la tabla *Mantenimiento* ya que una avion puede recibir varios mantenimientos.
+
+* Se establecio una realcion de uno a muchos con la tabla *vuelo* ya que un avion puede realizar varios vuelos. 
+
+### MANTENIMIENTO
+* Se establecio una relacion de uno a muchos con la tabla *mantenimiento_mec* esto para poder eliminar la realcion de varios a varios que se tiene con la tabla *Mecanico* ya que hay varios mantenimienos que pueden ser realizados por varios mecanicos distintos. 
+
+### EMPLEADO 
+* Se establecio una relacion de uno a muchos con la tabla *Despido_retiro* ya que que esta tabla puede contener la informacion sobre el despido o retiros de varios empleados. 
+* Se Establecio una relacion de uno a muchos con la tabla *Asistencia* ya que en esta se estara registrando la asistencia de todos los empleados.
+
+### CLIENTE
+* Se establecio una relacion de uno a uno con la tabla *Boleto* ya que cada cliente solo podra registrar un boleto a su nombre por viaje . 
+
+### BOLETO 
+* Se establecio una relacion de uno a uno con la tabla *Pago* ya que un boleto solo tendra un registro sobre el pago del mismo. 
+
+### VUELO
+* Se establecio una relacion de uno a mucho con la tabla *cliente* ya que un velo contara con una serie de clienes.
+* Se establecio una realcion de uno a muchos con la tabla *empleados* ya que un vuelo contara con al menos 10 empleados por vuelo. 
