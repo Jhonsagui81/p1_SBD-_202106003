@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6B3170A-113E-B849-1DB9-79DAE3DB533A" name="Factura">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:42:43 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fac_id" id="77E8A459-7335-43AA-54CC-542CEAD072D0">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:42:54 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fac_fecha" id="B2CA7A9E-61E1-10F8-3F4B-AE79CB498433">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:43:03 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fac_monto_total" id="A1C6E881-EB17-7A8A-3600-CD94D722B30F">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:43:18 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fac_estado_pago" id="AF86A67C-29D3-4AD2-747E-C2CE0F90AB4E">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:43:31 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_id" id="BE0ADECC-7AE0-A2F6-6572-7EAA9D5D60CE">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:32:02 UTC</createdTime>
+<generatorID>1DC1938F-89D6-75E2-D5A7-3A3A202EB504</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>EBEE11F3-6AC3-30BE-3634-D0177BB9424E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1C082CAA-8B36-C12F-1224-0C190875C301" name="Factura PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:43:02 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>77E8A459-7335-43AA-54CC-542CEAD072D0</attributeRef>
+<attributeRef>BE0ADECC-7AE0-A2F6-6572-7EAA9D5D60CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

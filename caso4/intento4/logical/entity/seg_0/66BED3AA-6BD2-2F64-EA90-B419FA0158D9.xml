@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="66BED3AA-6BD2-2F64-EA90-B419FA0158D9" name="Soporte_tecnico">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:38:58 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="tec_id" id="053FC1F8-D7F4-1540-731E-7888B915ECC3">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:39:55 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tec_fecha_recepcion" id="97F883A5-8EBD-3375-5F24-7A901AA6E070">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:40:14 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tec_descripcion" id="F0990EBC-68D5-6E24-610B-A4B315AD95A4">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:40:37 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tec_solucion" id="E44C4B95-468C-9A9A-D546-50DC1E89DCE3">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:41:44 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tec_reembolso" id="04337592-0F63-2204-C102-E235A94C5B47">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:42:06 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cli_id" id="D8DDFAB0-0570-2E22-638D-876D0A277B62">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:39:29 UTC</createdTime>
+<generatorID>DFD25073-E23C-721E-871F-3BF42EE3756F</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>F33E7720-1D75-B9E6-8D5B-4687F765FD04</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_id" id="B4E5C738-BCDE-0807-EC41-22B6AF586F27">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:40:57 UTC</createdTime>
+<generatorID>7C97FD8F-7D9E-941A-B26A-D1BACDED035D</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>65949869-15B2-A881-1DD6-CD4CBBD80DA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bod_id" id="903E6E2F-39EF-70CE-7592-2267A0804EC4">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:40:57 UTC</createdTime>
+<generatorID>7C97FD8F-7D9E-941A-B26A-D1BACDED035D</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>BBBBA8CE-EA38-F619-2C56-DA7D06BEBC3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DE252777-A75B-B46F-D516-276A8655C312" name="Soporte_tecnico PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:40:13 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>053FC1F8-D7F4-1540-731E-7888B915ECC3</attributeRef>
+<attributeRef>D8DDFAB0-0570-2E22-638D-876D0A277B62</attributeRef>
+<attributeRef>B4E5C738-BCDE-0807-EC41-22B6AF586F27</attributeRef>
+<attributeRef>903E6E2F-39EF-70CE-7592-2267A0804EC4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

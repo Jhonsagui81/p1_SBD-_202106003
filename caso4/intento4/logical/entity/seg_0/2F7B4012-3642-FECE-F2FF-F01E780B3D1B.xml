@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2F7B4012-3642-FECE-F2FF-F01E780B3D1B" name="Linea_ensamblaje">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:13:56 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="lin_id" id="876BCDDF-4891-6685-DC92-EF0F937AC059">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:14:13 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lin_tipo" id="F80D5877-3130-771B-ADA7-2F2649EE2735">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:14:31 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pro_id" id="2D375032-0A6C-D734-388B-9CF1C5343C46">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:22:25 UTC</createdTime>
+<generatorID>2A22BEF9-2DBB-F0A3-12FF-02B4C60EBA04</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>65949869-15B2-A881-1DD6-CD4CBBD80DA7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bod_id" id="5326768E-58C1-E541-ED97-892518A1DC53">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:22:25 UTC</createdTime>
+<generatorID>2A22BEF9-2DBB-F0A3-12FF-02B4C60EBA04</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<referedAttribute>BBBBA8CE-EA38-F619-2C56-DA7D06BEBC3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8DDA0E5B-783C-C2B9-DD87-4A63BFFAD8D8" name="Linea_ensamblaje PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 17:14:30 UTC</createdTime>
+<ownerDesignName>intento4</ownerDesignName>
+<engineerTo>
+<item key="79C54ADA-01EF-0438-43DE-734D73E658EE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>876BCDDF-4891-6685-DC92-EF0F937AC059</attributeRef>
+<attributeRef>2D375032-0A6C-D734-388B-9CF1C5343C46</attributeRef>
+<attributeRef>5326768E-58C1-E541-ED97-892518A1DC53</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

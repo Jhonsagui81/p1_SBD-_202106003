@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68575E0E-74E5-D5E6-C19E-092AA52F8819" name="Producto">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>46C1F503-17B6-0C5F-B058-8DAA30533529</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pro_id" id="A670201D-B612-5D03-1B83-DC5DE0BD6EEC">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>65949869-15B2-A881-1DD6-CD4CBBD80DA7</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_nombre" id="74684A2E-A0EA-5123-CAFB-45FB02BC69E5">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>D10ADFE0-AA67-8084-0456-269AD9B17FC9</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_marca" id="79F7F700-806C-4AAB-D898-E831144ABB31">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>C4711575-83B7-AB7B-853E-4383FB8A6B86</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_fecha_finaliza" id="3E889A42-9FF8-D16A-E472-49EFE2F8DFB7">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>759C0C3E-CD14-7C6A-8D1F-16E92B370DB8</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_costo_fabricacion" id="EF584CEA-E1E5-AA80-5DB1-DB6372F95EA3">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>B79E899C-4BD3-D47C-65FC-16D5DCF4BB8E</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_costo_verificacion" id="A3A84F90-4746-D35A-82A7-5B20FB5F588C">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>3F418362-21B3-758B-9EE8-37D47C1BEB44</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pro_costo_total" id="5EAC66BA-A3C9-D6A4-9B0F-22A2FF0E851F">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>FF030D84-66C8-4818-B009-9A808F488D1A</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Bodega_bod_id" id="803A614C-6782-0533-1BE5-F64C2B48644D">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>BBBBA8CE-EA38-F619-2C56-DA7D06BEBC3E</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D27D1395-81B1-5449-EEA7-8F9EA9FC4198" referredColumn="AFE78B22-D7CD-6B4A-F333-A8E2CEBCAC54"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2017B782-DB4F-AEEC-6AD9-428D2ED542BD" name="Producto_PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>904CCD3E-B933-7A02-5CA2-068631428DF6</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A670201D-B612-5D03-1B83-DC5DE0BD6EEC"/>
+<colUsage columnID="803A614C-6782-0533-1BE5-F64C2B48644D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3EAD9781-D10B-F05B-73DA-5A76BA30AAB4" name="Producto_Bodega_FK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>67156FAB-ADCE-A98A-5C91-6D22E72E5BFD</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="803A614C-6782-0533-1BE5-F64C2B48644D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

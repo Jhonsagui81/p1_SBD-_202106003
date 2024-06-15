@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85AF1CCF-1054-5005-735B-93C81124F605" name="Soporte_tecnico">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>66BED3AA-6BD2-2F64-EA90-B419FA0158D9</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="tec_id" id="84A1342E-5BD1-AE01-6756-F68F88D57310">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>053FC1F8-D7F4-1540-731E-7888B915ECC3</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tec_fecha_recepcion" id="0C8616BB-C66A-4BCF-CC40-48B261E8BEDA">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>97F883A5-8EBD-3375-5F24-7A901AA6E070</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tec_descripcion" id="8C25F4E5-1BA0-45A2-C7BB-CEBE07467673">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>F0990EBC-68D5-6E24-610B-A4B315AD95A4</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tec_solucion" id="196E9D8E-8778-E88B-DA27-15C7ABD0FE59">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>E44C4B95-468C-9A9A-D546-50DC1E89DCE3</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tec_reembolso" id="3858634C-B205-6A04-BAC5-8F4A566AB9F2">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>04337592-0F63-2204-C102-E235A94C5B47</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_cli_id" id="EA3928F7-F581-C57B-ED49-81EEA4994874">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>D8DDFAB0-0570-2E22-638D-876D0A277B62</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E33EFE7C-483B-3FE1-B0F2-AB05ABC4D497" referredColumn="CA3065F9-945A-38F3-1D24-2774D740F934"/>
+</associations>
+</Column>
+<Column name="Producto_pro_id" id="CBD73000-2B5C-F3CC-F68C-32E77D76AA7A">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>B4E5C738-BCDE-0807-EC41-22B6AF586F27</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA8D5C18-5474-D84A-EE32-059B2CEEBD35" referredColumn="A670201D-B612-5D03-1B83-DC5DE0BD6EEC"/>
+</associations>
+</Column>
+<Column name="Producto_bod_id" id="AC33095F-EFD1-2033-F8A2-7D47C98F43DA">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>903E6E2F-39EF-70CE-7592-2267A0804EC4</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA8D5C18-5474-D84A-EE32-059B2CEEBD35" referredColumn="803A614C-6782-0533-1BE5-F64C2B48644D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="ABD9B251-C584-55E5-1755-E63A04B009F3" name="Soporte_tecnico_PK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>DE252777-A75B-B46F-D516-276A8655C312</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84A1342E-5BD1-AE01-6756-F68F88D57310"/>
+<colUsage columnID="EA3928F7-F581-C57B-ED49-81EEA4994874"/>
+<colUsage columnID="CBD73000-2B5C-F3CC-F68C-32E77D76AA7A"/>
+<colUsage columnID="AC33095F-EFD1-2033-F8A2-7D47C98F43DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="641A4B21-F49E-E6E4-3948-4AFC7E42272C" name="Soporte_tecnico_Cliente_FK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>DFD25073-E23C-721E-871F-3BF42EE3756F</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA3928F7-F581-C57B-ED49-81EEA4994874"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A846653-F7AB-AF94-0C54-B482E4AF7993" name="Soporte_tecnico_Producto_FK">
+<createdBy>jhonatan</createdBy>
+<createdTime>2024-06-13 18:41:26 UTC</createdTime>
+<generatorID>7C97FD8F-7D9E-941A-B26A-D1BACDED035D</generatorID>
+<ownerDesignName>intento4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CBD73000-2B5C-F3CC-F68C-32E77D76AA7A"/>
+<colUsage columnID="AC33095F-EFD1-2033-F8A2-7D47C98F43DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
